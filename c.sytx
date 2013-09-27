@@ -1,0 +1,16 @@
+# keywords
+\b(auto|const|char|void|double|float|int|long|short|(un)?signed|sizeof|static|enum|struct|register|typedef|union|volatile|extern)\b green
+\b(break|case|continue|default|do|else|for|goto|for|if|return|switch|while)\b yellow
+\b((s?size)|((u_?)?int(8|16|32|64)))_t\b cyan
+# preprocessor
+(#(define|include|ifn?def|endif|elif|else|if))\b magenta
+# constants
+\b[A-Z_][0-9A-Z_]+\b red
+# double quotes
+\" \" red
+# single quotes
+' ' red
+# multi-line comments
+/\* \*/ blue
+# single-line comments
+// $ blue

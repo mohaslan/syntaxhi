@@ -1,0 +1,12 @@
+A KISS curses-based syntax highlighter
+
+To Build:
+make
+
+Usage:
+./syntaxhi <syntax file> <source file>
+
+Example:
+./syntaxhi c.sytx test.c
+./syntaxhi pascal.sytx test.pas
+

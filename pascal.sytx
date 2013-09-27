@@ -1,0 +1,18 @@
+# keywords
+\b(and|asm|begin|div|end|function|implementation|constructor|destructor|const|in|interface|mod|not|object|of|on|operator|or|type|record|program|procedure|shl|shr|unit|uses|var|inline|packed|set|xor|break|case|continue|do|else|for|goto|if|label|then|downto|to|repeat|util|while|with)\b yellow
+# types
+\b(array|string|file|integer|real|boolean|char)\b green
+# constants
+\b(false|true|nil)\b red
+# preprocessor
+\{\$ \} magenta
+# strings
+' ' red
+# numbers
+\b([0-9]*)(\.)?([0-9]+)\b red
+# multi-line comments
+\{ \} blue
+# single-line comments
+// $ blue
+# old style comments
+\(\* \*\) blue
